@@ -70,7 +70,7 @@ def main():
         proposed_solution = random.choice(possible_solutions)
 
         if first_guess:
-            proposed_solution = "slice"
+            proposed_solution = "trace"
             first_guess = False
 
         print(f"random possible solution: {proposed_solution}")
